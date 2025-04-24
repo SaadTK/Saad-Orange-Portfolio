@@ -228,7 +228,7 @@ img {
   font-weight: var(--font-semi-bold);
 }
 .home__profession {
-  font-size: var(--small-font);
+  font-size: var(--h1-font);
   color: var(--first-color-dark);
   margin-bottom: var(--mb-5);
 }
@@ -645,9 +645,31 @@ img {
   font-weight: 600;
   transition: color 0.3s ease;
 }
+.projects-button-live {
+  border: 2px solid blue;
+  width: 23%;
+  border-radius: 23px;
+  height: 40px;
+  /* text-align: center; */
+}
 
-.projects-button:hover {
+.projects-button-github {
+  border: 2px solid blue;
+  width: 37%;
+  border-radius: 23px;
+  height: 40px;
+}
+
+/* .projects-button:hover {
   color: #0056b3;
+} */
+
+.project-btn:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 255, 0.2);
+  border: 2px solid white;
 }
 
 .projects-button i {

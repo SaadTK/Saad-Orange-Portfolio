@@ -91,15 +91,16 @@ projects.forEach((project, index) => {
             <!-- Add icons if needed -->
           </div>
 <div style="display:flex; gap:100px;">
-          <a href="${project.liveLink}" style="border: 2px solid blue; border-radius: 30px; width:25%; background-color: white" class="projects-button">
-            <i class="ri-link" aria-hidden="true"></i>
-            <span>Visit Live</span>
-          </a>
+   <a href="${project.liveLink}" class="projects-button projects-button-live project-btn">
+  <i class="ri-link" aria-hidden="true"></i>
+  <span>Visit Live</span>
+</a>
 
-          <a href="${project.gitHubLink}" style="border: 2px solid blue; border-radius: 30px; width:40%; background-color: white" class="projects-button">
-            <i class="ri-github-line" aria-hidden="true"></i>
-            <span>View on GitHub</span>
-          </a>
+<a href="${project.gitHubLink}" class="projects-button projects-button-github project-btn">
+  <i class="ri-github-line" aria-hidden="true"></i>
+  <span>View on GitHub</span>
+</a>
+
         </div>
         </div>
       </article>
